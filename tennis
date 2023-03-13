@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tennis Profile</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Tennis Profile</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact Me</a></li>
+				<li><a href="#">Join</a></li>
+				<li><a href="#">Booking</a></li>
+				<li><a href="#">Members Area</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section>
+			<h2>Welcome to the Members Area</h2>
+			<p>Please log in to access exclusive content:</p>
+			<form action="#" method="post">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required><br>
+				
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required><br>
+				
+				<input type="submit" value="Log In">
+			</form>
+		</section>
+		
+		<section>
+			<h2>Exclusive Content</h2>
+			<p>Welcome to the exclusive members-only area of the Tennis Profile website. Here, you'll find resources and information that aren't available to the general public.</p>
+			<p>If you're not a member yet, please <a href="#">join us</a> to access this content.</p>
+			<p>If you're having trouble logging in, please <a href="#">contact us</a> for assistance.</p>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Tennis Profile. All rights reserved.</p>
+	</footer>
+</body>
+</html>
